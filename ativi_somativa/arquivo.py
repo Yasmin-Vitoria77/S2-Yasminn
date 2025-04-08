@@ -11,4 +11,10 @@ elif conta >= 20 and conta <= 24.9:
     print("Seu estado atual é de normalidade, pudinzinho!")
      
 elif conta >= 25 and conta <= 29.9:
-
+ print("Seu estado atual é de sobre peso!")
+    
+elif conta >= 30 and conta <= 39.9:
+    print("Seu estado atual é de obesidade!")
+    
+elif conta >= 40:
+    print("Seu estado atual é de obesidade mórbida!")
